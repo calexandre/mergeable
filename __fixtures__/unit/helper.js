@@ -65,6 +65,12 @@ module.exports = {
             login: 'creator'
           },
           number: (options.number) ? options.number : 1
+        },
+        comment: {
+          user: {
+            login: 'creator'
+          },
+          body: 'test'
         }
       },
       log: {
